@@ -1,0 +1,96 @@
+@media screen and (max-width: 786px){
+    nav{
+        width: 100%;
+        h1{
+            font-size: 25px;
+            margin-top: 7px;
+        }
+        .burger{
+            display: block;
+            margin-top: 7px;
+            place-items: center;
+        }
+        .nav-items{
+            position: absolute;
+            flex-direction: column;
+            right: 0px;
+            top: 7.8%;
+            height: 92%;
+            width: 50%;
+            background-color: inherit;
+            transform: translateX(100%);
+            transition: transform 200ms ease-in;
+            div{
+                bottom: 12.5%;
+            }
+            p{
+                padding: 10px;
+                border-radius: 0;
+                box-shadow: none;
+                text-align: center;
+            }
+        }
+        .toggle{
+            transform: translateX(0%);
+        }
+    }
+
+    .home{
+        p{
+            width: 80%;
+            font-size: 50px;
+        }
+        .shape1{
+            transform: rotate(30deg);
+            top: 600px;
+            left: -800px;
+        }
+    }
+
+    .card{
+        height: 200px;
+        width: 150px;
+        img{
+            height: 150px;
+            width: 125px;
+        }
+        div{
+            height: 25px;
+            font-size: 10px;
+            padding: 5px 3px;
+        }
+    }
+
+    .product{
+        grid-template-rows: repeat(5, 1fr);
+        place-items: center;
+        img{
+            height: 200px;
+            grid-area: 1/1/3/2;
+        }
+        div{
+            font-size: 10px;
+        }
+        .name{
+            grid-area: 1/2/3/3;
+            font-size: 25px;
+            justify-self: start;
+        }
+        .cost{
+            grid-area: 3/1/4/3;
+            font-size: 25px;
+        }
+        .add-rem{
+            grid-area: 4/1/5/3;
+        }
+        button{
+            grid-area: 5/1/6/3;
+        }
+
+    }
+
+    body, html{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+}

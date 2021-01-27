@@ -1,0 +1,33 @@
+.home{
+    height: 92vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .shape1{
+        position: absolute;
+        width: 2440px;
+        height: 713px;
+        left: -200px;
+        top: 411px;
+        background-color: rgba(218, 57, 57, 0.42);
+        transform: rotate(15deg);
+    }
+
+    .shape2{
+        position: absolute;
+        width: 2440px;
+        height: 732px;
+        left: 0px;
+        top: 192px;
+        background: rgba(218, 57, 57, 0.21);
+        transform: rotate(-20deg);
+    }
+
+    p{
+        font-size: 80px;
+        text-align: center;
+        z-index: 999;
+    }
+}
