@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.9ca72f99.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.2c8e3b04.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.2c8e3b04.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.b56c1ee8.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.b56c1ee8.js.map",
+    "static/js/2.e125a204.chunk.js": "/shopping-cart/static/js/2.e125a204.chunk.js",
+    "static/js/2.e125a204.chunk.js.map": "/shopping-cart/static/js/2.e125a204.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.9ca72f99.chunk.css.map": "/shopping-cart/static/css/main.9ca72f99.chunk.css.map",
+    "static/js/2.e125a204.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.e125a204.chunk.js.LICENSE.txt",
+    "static/media/bottles.591def3a.jpg": "/shopping-cart/static/media/bottles.591def3a.jpg",
+    "static/media/ctable.2d569ef8.jpeg": "/shopping-cart/static/media/ctable.2d569ef8.jpeg",
+    "static/media/plate.4e98f3d0.jpeg": "/shopping-cart/static/media/plate.4e98f3d0.jpeg",
+    "static/media/statue.6d7929be.jpeg": "/shopping-cart/static/media/statue.6d7929be.jpeg",
+    "static/media/vase.dc39c6a2.jpeg": "/shopping-cart/static/media/vase.dc39c6a2.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b56c1ee8.js",
+    "static/js/2.e125a204.chunk.js",
+    "static/css/main.9ca72f99.chunk.css",
+    "static/js/main.2c8e3b04.chunk.js"
+  ]
+}
